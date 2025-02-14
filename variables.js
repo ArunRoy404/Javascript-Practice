@@ -1,3 +1,4 @@
+// Variable ==> container
 // Variable = vary + able
 // one keyword for all variable 
 // can changeable 
