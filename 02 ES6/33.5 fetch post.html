@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .post{
+            border: 2px solid;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px gray;
+            background-color: lightgray;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 5px 5px 5px;
+        }
+        #post-container{
+            margin: 50px 0px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    </style>
+</head>
+<body>
+    <button  onclick="handlePostLoad()">
+        Load Posts
+    </button>
+    <div id="post-container"></div>
+    <script src="33.5 fetch post.js"></script>
+</body>
+</html>
