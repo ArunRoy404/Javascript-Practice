@@ -1,4 +1,4 @@
-// an async function that fetch fata from an api and loghs a message 
+// an async function that fetch data from an api and logs a message 
 
 const fetchJoke = async() =>{
     const response = await fetch('https://v2.jokeapi.dev/joke/Programming?type=single')
